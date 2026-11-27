@@ -1,0 +1,17 @@
+NOIR TV - proyecto Android inicial
+
+Este ZIP contiene el código fuente inicial, no un APK ya compilado.
+La app muestra las aplicaciones instaladas y permite abrirlas con foco del control remoto.
+El proyecto debe compilarse con Android Gradle Plugin 8.7.3, Gradle compatible y JDK 17.
+
+Compilación en la nube:
+1. Crea un repositorio privado en GitHub desde la tablet.
+2. Sube el contenido de este ZIP al repositorio.
+3. Abre Actions > Build NOIR TV APK > Run workflow.
+4. Descarga el artefacto NOIR-TV-debug-apk y extrae app-debug.apk.
+
+Notas:
+- Es una versión inicial funcional, no reproduce exactamente todos los elementos decorativos de la maqueta.
+- El acceso a todas las apps requiere QUERY_ALL_PACKAGES; es para uso personal/sideload.
+- Android/Google TV puede no permitir establecer una app de terceros como HOME predeterminada en algunos firmwares.
+- Prueba primero como app normal y conserva el launcher original.
